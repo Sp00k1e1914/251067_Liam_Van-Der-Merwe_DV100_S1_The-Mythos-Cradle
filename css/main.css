@@ -195,7 +195,6 @@ body{
     padding-left: 110px;
     padding-right: 110px;
    
-    margin-left: 60px;
 }
 
 .fLeft {
@@ -219,6 +218,8 @@ body{
 
     display: flex;
     flex-direction: column;
+
+    padding-right: 40px;
     text-align: left;
     gap: 20px;
 }
@@ -564,7 +565,6 @@ body{
     background-size: cover;
     overflow: hidden;
     background-repeat:no-repeat;
-    height: 540px; 
     width: auto;
     text-align: center;
 }
@@ -580,9 +580,10 @@ body{
 #halfHeadAII {
 
     background-color: #002d68;
-    height: 420px;
+    height: 480px;
     text-align: center;
-
+    word-spacing: 10px;
+    
 }
 
 
@@ -609,10 +610,100 @@ background-color: #e9ad1c;
 
 /*First section of adoption page - orange bar difficulties*/
 
+.adoptionCreatureWit {
 
-.adoptSlide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    padding-right: 10%;
+    padding-top: 8%;
+}
 
-    background-color: #220070;
-    height: 1080px;
+.adoptionCreatureWit img {
+
+    border-radius: 5%;
+}
+
+#azuronTeks{}
+
+
+.sterre{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border:none
+}
+
+.sterre p{
+
+    border-style:solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    
+    color: #00000061;
+
+    padding-left: 5%;
+}
+
+
+.rating{
+
+    color: #e9ad1c;
+    font-size: 130%;
+    padding-right: 10%;
+}
+
+
+.addToCradleWit{
+
+    display: flex;
+    flex-direction: row;
+   
+
+
+}
+
+.counterWit{
+
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+   
+   
+    border-style: solid;
+
+    color: #ffffff;
+    background-color: #002d68;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+
+
+
+.negative{
+
+    border: none;
+
+    color: #ffffff;
+    background-color: #002d68;
+
+    padding-right: 50%;
+    
+}
+
+.positive{
+
+    border: none;
+
+    color: #ffffff;
+    background-color: #002d68;
+
+    padding-left: 50%;
 
 }
