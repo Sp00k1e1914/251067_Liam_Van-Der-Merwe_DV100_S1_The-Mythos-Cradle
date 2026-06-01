@@ -587,7 +587,7 @@ body{
 }
 
 
-#halfHeadAII h1{
+#halfHeadAII h1 {
 
     padding-top: 60px;
     font-size: 40pt;
@@ -596,13 +596,13 @@ body{
     color: #e9ad1c;
 }
 
-#halfHeadAII p{
+#halfHeadAII p {
 
     font-size: 16pt;
     color: #ffffff;
 }
 
-#orangeBar{
+#orangeBar {
 
 height: 120px;
 background-color: #e9ad1c;
@@ -616,19 +616,41 @@ background-color: #e9ad1c;
     flex-direction: row;
     justify-content: space-around;
     
-    padding-right: 10%;
-    padding-top: 8%;
+    padding: 8% 4%;
 }
 
 .adoptionCreatureWit img {
 
-    border-radius: 5%;
+    border-radius: 2%;
+
+    margin-right: 100px;
 }
 
-#azuronTeks{}
+.witTeks {
+
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
-.sterre{
+.witTeks h1 {
+
+    font-size: 40pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.witTeks h2 {
+
+    font-size: 18pt;
+    font-weight:600;
+    margin: 0;
+    color: #00000061;
+}
+
+
+.sterre {
     
     display: flex;
     flex-direction: row;
@@ -637,73 +659,307 @@ background-color: #e9ad1c;
     border:none
 }
 
-.sterre p{
+.sterre p {
 
     border-style:solid;
     border-top: none;
     border-bottom: none;
     border-right: none;
+    border-width: 2px;
     
     color: #00000061;
 
-    padding-left: 5%;
+    padding-left: 30px;
 }
 
 
-.rating{
+.rating {
 
     color: #e9ad1c;
     font-size: 130%;
     padding-right: 10%;
 }
 
+.descOfCreature {
 
-.addToCradleWit{
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 170%;
+}
 
-    display: flex;
-    flex-direction: row;
-   
+.descOfCreature p {
 
+    margin-top: 0;
 
 }
 
-.counterWit{
+
+.addToCradleWit {
+
+    margin-top: 7%;
 
     display: flex;
     flex-direction: row;
-    justify-items: center;
-   
+
+}
+
+.counterWit {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
    
     border-style: solid;
-
+    border-color: #ffffff00;
+    border-radius: 20px;
+   
     color: #ffffff;
     background-color: #002d68;
-    padding-left: 6%;
-    padding-right: 6%;
+    
+    padding: 1% 8%;
+}
+
+.counterWit p {
+
+    padding-left: 25%;
+    padding-right: 25%;
+
+    font-size: 16pt;
+    font-weight: 700;
 
 }
 
 
-
-
-.negative{
+.negative {
 
     border: none;
 
+    font-size: 16pt;
+    font-weight: 700;
     color: #ffffff;
-    background-color: #002d68;
+    background-color: #002d6800;
 
-    padding-right: 50%;
+    padding-right: 80%;
+}
+
+
+
+.positive {
+
+    border: none;
+
+    font-size: 16pt;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #002d6800;
+
+    padding-left: 80%;
+}
+
+
+.addToCart {
+
+    font-family: 'poppins';
+    font-size: 18pt;
+    font-weight: 600;
+
+    padding: 1% 9%;
+
+    background-color: #15d5f5;
+    color: #ffffff;
+
+    border-radius: 20px;
+    border-color: #00000000;
+
+    margin-left: 5%;
+
+}
+
+
+.gear {
+
+    display: flex;
+    flex-direction: row;
+
+    border-style: solid;
+    border-color: #00000061;
+    border-width: 2px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 16pt;
+    color: #00000061;
+
+    margin-top: 7%;
+
+    padding-top: 3%;
+}
+
+
+.catG {
+
+    line-height: 250%;
+
+}
+
+.dubbelP {
+
+    line-height: 250%;
+    padding-left: 30px;
+
+}
+
+.voorraad {
+
+    line-height: 250%;
+    padding-left: 20px;
+
+}
+
+/*Second section of adoption page - Blue Sections*/
+
+.adoptionCreatureBlue {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    padding: 8% 4%;
+
+}
+
+.adoptionCreatureBlue img {
+
+    border-radius: 2%;
+
+    margin-right: 100px;
+
+}
+
+.blueTeks {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blueTeks h1 {
+
+    font-size: 40pt;
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff;
+
+}
+
+.blueTeks h2 {
+
+    font-size: 18pt;
+    font-weight:600;
+    margin: 0;
+    color:#15d5f5;
+}
+
+.sterreB {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border:none
+}
+
+.sterreB p {
+
+    border-style:solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-width: 2px;
+    
+    color:#ffffff79;
+
+    padding-left: 30px;
+}
+
+.descOfCreatureB{
+
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 170%;
     
 }
 
-.positive{
+.descOfCreatureB p {
 
-    border: none;
-
+    margin-top: 0;
     color: #ffffff;
-    background-color: #002d68;
 
-    padding-left: 50%;
+}
+
+.addToCradleBlue {
+
+    margin-top: 7%;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.counterBlue {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-color: #ffffff00;
+    border-radius: 20px;
+   
+    color: #ffffff;
+    background-color:#e9ad1c ;
+    
+    padding: 1% 8%;
+
+}
+
+.gearB {
+
+    display: flex;
+    flex-direction: row;
+
+    border-style: solid;
+    border-color: #ffffff79;
+    border-width: 2px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    font-size: 16pt;
+    color: #ffffff79;
+
+    margin-top: 7%;
+
+    padding-top: 3%;
+
+}
+
+#viewCradle button {
+
+    font-family: 'poppins';
+    font-size: 18pt;
+    font-weight: 600;
+
+    padding: 1% 9%;
+
+    background-color: #15d5f5;
+    color: #ffffff;
+
+    border-radius: 20px;
+    border-color: #00000000;
 
 }
