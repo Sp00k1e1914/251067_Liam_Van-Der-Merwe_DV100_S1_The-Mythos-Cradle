@@ -774,7 +774,11 @@ background-color: #e9ad1c;
     border-color: #00000000;
 
     margin-left: 5%;
+}
 
+.addToCart:hover{
+
+    background-color: #e9ad1c;
 }
 
 
@@ -927,6 +931,17 @@ background-color: #e9ad1c;
 
 }
 
+.counterBlue p {
+
+    padding-left: 25%;
+    padding-right: 25%;
+
+    font-size: 16pt;
+    font-weight: 700;
+
+}
+
+
 .gearB {
 
     display: flex;
@@ -948,18 +963,353 @@ background-color: #e9ad1c;
 
 }
 
+#viewCradle {
+
+    position:fixed;
+
+    left: 80%;
+    bottom: 5%;
+
+    
+
+
+}
+
+
 #viewCradle button {
 
     font-family: 'poppins';
     font-size: 18pt;
     font-weight: 600;
+    
 
-    padding: 1% 9%;
+    background-color:#b38825;
+    color: #ffffff;
+
+    border-radius: 20px;
+    border-color: #00000000;
+
+    padding: 25px 90px;
+
+
+}
+
+
+
+#coHead{
+
+    height: 481.7px;
+    background-color: #15d5f5;
+
+}
+
+#halfHeadC {
+
+    background-image: url("/assets/images/contactHeader.png");
+    background-size: cover;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    width: auto;
+    text-align: center;
+}
+
+#halfHeadC h1 {
+
+    font-family: "Myth";
+    font-size: 96pt;
+    color: #ffffff;
+}
+
+
+#draakPage {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 120px 0;
+
+}
+
+#draakPage img {
+
+    border-radius: 2%;
+   
+}
+
+#draakText {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+
+#draakText h2 {
+
+    margin: 0px;
+    color: #15d5f5;
+   
+
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+
+#draakText h1 {
+
+    margin: 0px;
+    color: #220070;
+    font-size: 40pt;
+   
+}
+
+#draakText p {
+
+    color: #00000088;
+    font-size: 18pt;
+    line-height: 150%;
+    
+}
+
+#witSectionIII {
+
+    background-color: #ffffff;
+    height: 1400px;
+
+}
+
+#commsPage {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 80px;
+
+}
+
+#commsLeft {
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+#socialMC {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#socialMC h1 {
+
+    font-weight:700;
+    font-size: 40pt;
+    color: #002d68;
+    margin-top: 0;
+}
+
+#socialMC h2 {
+
+    font-weight: 600;
+    font-size: 18pt;
+    color: #15d5f5;
+    margin: 0;
+   
+
+}
+
+#kaart {
+
+    padding-top: 110px;
+
+}
+
+#kaart h1 {
+
+    font-weight:700;
+    font-size: 40pt;
+    margin: 10px 0;
+    color: #002d68;
+    
+}
+
+#kaart h2 {
+
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0;
+    color: #15d5f5;
+}
+
+#kaart iframe {
+
+    height: 700px;
+    width: 750px;
+
+    border-radius: 25px;
+
+}
+
+
+#commsRight {
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(/assets/images/formBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50px;
+
+    
+
+}
+
+#commsRight h1 {
+
+    padding-left: 70px;
+    padding-right: 200px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    
+    font-size: 40pt;
+    font-weight: 700;
+
+    color: #ffffff;
+}
+
+#commsRight h2 {
+
+    padding-left: 70px;
+     font-size: 18pt;
+     font-weight: 600;
+     color: #ffffff;
+    
+
+}
+
+
+#uNaam {
+
+    background-color:#ffffff;
+    border:#8b8b8b;
+    border-style: solid;
+    border-radius: 25px;
+
+    font-family: 'Poppins';
+    font-size: 16pt;
+    color:#000000 ;
+
+    margin: 0 70px 37px;
+
+    padding: 37px;
+
+}
+
+#uNaam::placeholder{
+
+    font-family: "Poppins"; 
+    font-weight: 600;
+    color: #8b8b8b;
+}
+
+
+#uAddress {
+
+    background-color:#ffffff;
+    border:#8b8b8b;
+    border-style: solid;
+    border-radius: 25px;
+
+    font-family: 'Poppins';
+    font-size: 16pt;
+    color:#000000 ;
+
+    margin: 0 70px 37px;
+
+    padding: 37px;
+
+}
+
+#uAddress::placeholder{
+
+    font-family: "Poppins"; 
+    font-weight: 600;
+    color: #8b8b8b;
+
+}
+
+#uSubject {
+
+    background-color:#ffffff;
+    border:#8b8b8b;
+    border-style: solid;
+    border-radius: 25px;
+
+    font-family: 'Poppins';
+    font-size: 16pt;
+    color:#000000 ;
+
+    margin: 0 70px 37px;
+
+    padding: 37px;
+
+}
+
+#uSubject::placeholder{
+
+    font-family: "Poppins"; 
+    font-weight: 600;
+    color: #8b8b8b;
+
+}
+
+#uBoodskap {
+
+    background-color:#ffffff;
+    border:#8b8b8b;
+    border-style: solid;
+    border-radius: 25px;
+
+    font-family: 'Poppins';
+    font-size: 16pt;
+    color:#000000 ;
+
+    margin: 0 70px 37px;
+
+    padding: 40px 37px 100px;
+
+}
+
+#uBoodskap::placeholder{
+
+    font-family: "Poppins"; 
+    font-weight: 600;
+    color: #8b8b8b;
+
+}
+
+
+#submitC {
+
+    font-family: 'poppins';
+    font-size: 18pt;
+    font-weight: 600;
+
+    padding: 30px;
 
     background-color: #15d5f5;
     color: #ffffff;
 
     border-radius: 20px;
     border-color: #00000000;
+
+    margin: 30px 450px 90px 70px;
 
 }
