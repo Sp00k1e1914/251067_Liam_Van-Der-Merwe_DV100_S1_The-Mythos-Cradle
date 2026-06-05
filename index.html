@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <meta name="keywords" content="template, initial setup, html, css, links, futureUse">
-    <meta name="author" content="Liam Van Der Merwe 251067">
+    <meta name="keywords" content="Final, html, css, links">
+    <meta name="author" content="Liam C.S. Van Der Merwe 251067">
 
     <title>The Mythos Cradle</title>
-
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
    
     <link rel="stylesheet" href="css/main.css">
    
-
 </head>  
 
 <body>
@@ -30,8 +29,8 @@
     <!--Top of the home page, nav bar.-->
 
     <header id="mainHeader">
+
         <nav class="navBar">
-           
             <div class="topLogo">
                 <a href="index.html">
                     <img src="/assets/images/logo.png" width="343px">
@@ -64,8 +63,6 @@
      
         </nav>
 
-
-        
         <div class="intro">
             <h1>The Mythos <br> Cradle</h1>
             <h2>Where legends become loved ones</h2>
@@ -81,13 +78,17 @@
 
             <div id="unicorn">
 
-                <button>
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
+                        <button id="prev" onclick="prevImage()">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
 
-                <button>
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
+                        <output type="img" value="0" id="amount">
+                              
+                        </output>
+
+                        <button id="next" onclick="nextImage()">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
 
             </div>
 
@@ -105,8 +106,12 @@
                 <br>legendary creatures find their forever homes.</p>
 
                 <button class="cradleALegend">
+                    
+                    <a href="/pages/cartmodal.html">
 
-                    <p>Cradle a Legend</p>
+                        <p>Cradle a Legend</p>
+
+                    </a>
 
                 </button>
 
@@ -229,7 +234,11 @@
 
             <button class="cradleALegend">
 
-                <p>Cradle a Legend</p>
+                <a href="/pages/cartmodal.html">
+
+                    <p>Cradle a Legend</p>
+
+                </a>
 
             </button>
 
@@ -261,8 +270,6 @@
 
             </div>
 
-          
-
             <div class="socialM">
 
                 <h1>Social Media Links</h1>
@@ -278,7 +285,6 @@
 
             </div>
        
-
         </section>
 
         <section class="misc">
@@ -294,7 +300,6 @@
 
             </div>
            
-
         </section>
 
     </footer>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <meta name="keywords" content="template, initial setup, html, css, links, futureUse">
-    <meta name="author" content="Liam Van Der Merwe 251067">
+    <meta name="keywords" content="Final, html, css, links,">
+    <meta name="author" content="Liam C.S. Van Der Merwe 251067">
 
-    <title>The Mythos Cradle</title>
-
+    <title>Contact Page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
    
     <link rel="stylesheet" href="/css/main.css">
    
-
 </head>  
 
 <!--Top of the Contact page, nav bar.-->
@@ -114,7 +113,7 @@
     <section id="witSectionIII">
 
         <div id="commsPage">
-
+        
             <div id="commsLeft">
 
                 <div id="socialMC">
@@ -146,49 +145,56 @@
 
             </div>
 
+                <div class="popup" id="dankie">
+
+                    <p>
+                        Thank You for your message x 
+                        <br> We wish you a pleasant day!
+                    </p>
+
+                    <button id="acknowledged" onclick="closeMessage()">ok</button>
+
+                </div>
+
             <div>
 
                 <form id="cForm">
 
                     <h1>SEND US A MESSAGE</h1>
 
-                      <h2>Your name</h2>
+                    <h2>Your name</h2>
 
-                <input name="naam" class="cFormInput" placeholder="Abc">
+                    <input name="naam" class="cFormInput" placeholder="Abc">
 
-                </input>
+                    </input>
 
-                  <h2>Email Address</h2>
+                    <h2>Email Address</h2>
 
-                <input name="address" class="cFormInput" placeholder="Abc@def.com">
+                    <input name="address" class="cFormInput" placeholder="Abc@def.com">
 
-                </input>
+                    </input>
 
-                <h2>Subject</h2>
+                    <h2>Subject</h2>
 
-                <input name="subject" class="cFormInput" placeholder="Optional">
+                    <input name="subject" class="cFormInput" placeholder="Optional">
 
-                </input>
+                    </input>
 
-                <h2>Message</h2>
+                    <h2>Message</h2>
 
-                <input name="boodskap" id="uBoodskap" placeholder="Hi! I'd like to ask about">
+                    <input name="boodskap" id="uBoodskap" placeholder="Hi! I'd like to ask about">
 
-                </input>
+                    </input>
 
-                <button id="submitC">Submit</button>
-
+                    <button id="submitC" onclick="getValues()">Submit</button>
 
                 </form>
-
+                
             </div>
 
         </div>
 
-        
-
     </section>
-
 
     <footer class="endSection">
 
@@ -212,8 +218,6 @@
 
             </div>
 
-          
-
             <div class="socialM">
 
                 <h1>Social Media Links</h1>
@@ -229,7 +233,6 @@
 
             </div>
        
-
         </section>
 
         <section class="misc">
@@ -245,7 +248,6 @@
 
             </div>
            
-
         </section>
 
     </footer>

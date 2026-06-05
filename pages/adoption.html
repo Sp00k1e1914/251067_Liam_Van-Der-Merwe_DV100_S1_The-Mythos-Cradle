@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <meta name="keywords" content="template, initial setup, html, css, links, futureUse">
-    <meta name="author" content="Liam Van Der Merwe 251067">
+    <meta name="keywords" content="Final, html, css, links">
+    <meta name="author" content="Liam C.S. Van Der Merwe 251067">
 
-    <title>The Mythos Cradle</title>
-
+    <title>Adoption Page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
    
     <link rel="stylesheet" href="/css/main.css">
    
-
 </head>  
 
 <!--Top of the adoption page, nav bar.-->
@@ -35,33 +34,33 @@
 
             <nav class="navBar">
            
-            <div class="topLogo">
-                <a href="/index.html">
-                    <img src="/assets/images/logo.png" width="343px">
-                </a>
-            </div>        
+                <div class="topLogo">
+                    <a href="/index.html">
+                        <img src="/assets/images/logo.png" width="343px">
+                    </a>
+                </div>        
 
                 <div class="navLinks">
 
-                <a class="linkI" href="/index.html">Home</a>
-                <a class="linkI" href="#">Adopt</a>
-                <a class="linkI" href="/pages/contact.html">Contact</a>
+                    <a class="linkI" href="/index.html">Home</a>
+                    <a class="linkI" href="#">Adopt</a>
+                    <a class="linkI" href="/pages/contact.html">Contact</a>
 
                 </div>
     
                 <div class="searchBar">
 
-                <button class="searchItem">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
+                    <button class="searchItem">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
 
-                <input class="searchItem bar" type="search" placeholder="search">
+                    <input class="searchItem bar" type="search" placeholder="search">
                 
-                <button class="searchItemI">
-                    <a href="cartmodal.html">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </a>
-                </button>
+                    <button class="searchItemI">
+                        <a href="cartmodal.html">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </button>
 
                 </div>
      
@@ -144,11 +143,11 @@
 
                     <div class="counterWit">
 
-                        <button class="knoppie" id="decrease" onclick="lesserCount()">-</button>
+                      <button id="decrease" onclick="lesserCountAZ()">-</button>
 
-                            <input type="number" value="0" id="hoeveelheidWit">
+                            <input type="text" value="0" id="draakNom">
 
-                        <button class="knoppie" id="increase" onclick="greaterCount()">+</button>
+                        <button id="increase" onclick="greaterCountAZ()">+</button>
 
                     </div>
 
@@ -233,11 +232,11 @@
 
                     <div class="counterBlue">
 
-                        <button class="negative">-</button>
+                        <button id="decrease" onclick="lesserCountS()">-</button>
 
-                        <p>1</p>
+                            <input type="text" value="0" id="starNom">
 
-                        <button class="positive">+</button>
+                        <button id="increase" onclick="greaterCountS()">+</button>
 
                     </div>
 
@@ -321,11 +320,11 @@
 
                     <div class="counterWit">
 
-                        <button class="negative">-</button>
+                        <button id="decrease" onclick="lesserCountA()">-</button>
 
-                            <div class="hoeveelheidW">1</div>
+                            <input type="text" value="0" id="grifNom">
 
-                        <button class="positive">+</button>
+                        <button id="increase" onclick="greaterCountA()">+</button>
 
                     </div>
 
@@ -411,11 +410,11 @@
 
                     <div class="counterBlue">
 
-                        <button class="negative">-</button>
+                        <button id="decrease" onclick="lesserCountL()">-</button>
 
-                        <p>1</p>
+                            <input type="text" value="0" id="luminNom">
 
-                        <button class="positive">+</button>
+                        <button id="increase" onclick="greaterCountL()">+</button>
 
                     </div>
 
@@ -501,11 +500,11 @@
 
                     <div class="counterWit">
 
-                        <button class="negative">-</button>
+                        <button id="decrease" onclick="lesserCountS()">-</button>
 
-                            <div class="hoeveelheidW">1</div>
+                            <input type="text" value="0" id="starNom">
 
-                        <button class="positive">+</button>
+                        <button id="increase" onclick="greaterCountS()">+</button>
 
                     </div>
 
@@ -592,11 +591,11 @@
 
                     <div class="counterBlue">
 
-                        <button class="negative">-</button>
+                        <button id="decrease" onclick="lesserCountB()">-</button>
 
-                        <p>1</p>
+                            <input type="text" value="0" id="briNom">
 
-                        <button class="positive">+</button>
+                        <button id="increase" onclick="greaterCountB()">+</button>
 
                     </div>
 
@@ -661,8 +660,6 @@
 
             </div>
 
-          
-
             <div class="socialM">
 
                 <h1>Social Media Links</h1>
@@ -678,7 +675,6 @@
 
             </div>
        
-
         </section>
 
         <section class="misc">

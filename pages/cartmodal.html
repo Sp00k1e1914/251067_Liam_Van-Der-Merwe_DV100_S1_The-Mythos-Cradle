@@ -3,11 +3,12 @@
 <html lang="en">
 
     <head>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <meta name="keywords" content="template, initial setup, html, css, links, futureUse">
-        <meta name="author" content="Liam Van Der Merwe 251067">
+        <meta name="keywords" content="Final, html, css, links">
+        <meta name="author" content="Liam C.S. Van Der Merwe 251067">
 
         <title>The Mythos Cradle</title>
 
@@ -36,23 +37,190 @@
 
         <section id="yourInventoryI">
 
-                        <button class="knoppie" id="decrease" onclick="lesserCount()">-</button>
+            <div id="contentZone">
 
-                            <input type="number" value="0" id="hoeveelheidWit">
+                <div class="productBar" id="azuron">
 
-                        <button class="knoppie" id="increase" onclick="greaterCount()">+</button>
+                    <div class="creatureTitle">Azuron</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountAZ()">-</button>
+
+                            <input type="text" value="0" id="draakNom">
+
+                        <button id="increase" onclick="greaterCountAZ()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountAZ()">Total:</button>
+
+                        <input class="grandTotal" type="text" value="0" id="azuronCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+
+                <div class="productBar" id="yuki">
+
+                    <div class="creatureTitle">Yuki</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountK()">-</button>
+
+                            <input type="text" value="0" id="kitNom">
+
+                        <button id="increase" onclick="greaterCountK()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountK()">Total:</button>
+
+                        <input type="text" value="0" id="kitCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+
+                <div class="productBar" id="aurelia">
+
+                    <div class="creatureTitle">Aurelia</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountA()">-</button>
+
+                            <input type="text" value="0" id="grifNom">
+
+                        <button id="increase" onclick="greaterCountA()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountA()">Total:</button>
+
+                        <input type="text" value="0" id="grifCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+
+                <div class="productBar" id="lumina">
+
+                    <div class="creatureTitle">Lumina</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountL()">-</button>
+
+                            <input type="text" value="0" id="luminNom">
+
+                        <button id="increase" onclick="greaterCountL()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountL()">Total:</button>
+
+                        <input type="text" value="0" id="luminCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+
+                 <div class="productBar" id="starwind">
+
+                    <div class="creatureTitle">Starwind</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountS()">-</button>
+
+                            <input type="text" value="0" id="starNom">
+
+                        <button id="increase" onclick="greaterCountS()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountS()">Total:</button>
+
+                        <input type="text" value="0" id="starCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+                
+                <div class="productBar" id="briar">
+
+                    <div class="creatureTitle">Briar</div>
+
+                    <div class="counterCI">
+
+                        <button id="decrease" onclick="lesserCountB()">-</button>
+
+                            <input type="text" value="0" id="briNom">
+
+                        <button id="increase" onclick="greaterCountB()">+</button>
+
+                    </div>
+
+                    <div class="totalR">
+
+                        <button id="sum" onclick="finalAmountB()">Total:</button>
+
+                        <input type="text" value="0" id="briCost">
+
+                    </div>
+
+                    <button class="removal" id="azuronDel" onclick="removalOfItem()">Delete</button> 
+
+                </div>
+                  
+            </div>
 
         </section>
 
         <footer id="yourInventoryIIF">
 
-            <button id="return">Continue Searching</button>
+            <button id="return" onclick="">Continue Searching</button>
 
-            <button id="purchaseConfirmed">Finish Adoption</button>
+            <div>
+
+                <button id="sum" onclick="expenditure()">Total:</button>
+
+                <input type="text" value="0" id="totalExpenditure">
+
+
+            </div>
+
+            <a href="/index.html">
+
+                <button id="purchaseConfirmed">Finish Adoption</button>
+
+            </a>
 
         </footer>
 
-    <script src="/js/script.js"></script>
+        <script src="/js/script.js"></script>
 
     </body>
 
